@@ -1,0 +1,12 @@
+###
+GET http://localhost:3000/allusers
+
+
+###
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "name":"vishnuprasad",
+    "email":"castle+gaint@test.com"
+}
